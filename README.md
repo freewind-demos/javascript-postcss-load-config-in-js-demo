@@ -3,7 +3,7 @@ JavaScript PostCSS Config Demo
 
 把postcss需要的参数写在`postcss.config.js`里。
 
-原以为这是一个非常简单的任务，后来发现postcss居然默认不支持配置文件，所以需要用到一个第三方库`postcss-load-config`读取配置。
+原以为这是一个非常简单的任务，后来发现postcss居然默认不支持配置文件，所以需要用到一个第三方库[postcss-load-config](https://github.com/michael-ciniawsky/postcss-load-config)读取配置。
 
 注：`postcss-load-config`支持很多种不同格式的配置
 
