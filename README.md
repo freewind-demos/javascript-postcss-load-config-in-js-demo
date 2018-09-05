@@ -1,11 +1,16 @@
-JavaScript PostCSS Demo
-=======================
+JavaScript PostCSS Config Demo
+==============================
 
-PostCSS是一个对CSS进行各种转换的工具。
+把postcss需要的参数写在`postcss.config.js`里。
 
-通过各种插件，我们可以对css文件进行各种花样的转换。
+原以为这是一个非常简单的任务，后来发现postcss居然默认不支持配置文件，所以需要用到一个第三方库`postcss-load-config`读取配置。
 
-本Demo用到的是`autoprefixer`插件，可以在让我们标准（但可能还没有被浏览器支持）的css属性，然后由该插件给它加上各种前缀，让它被各浏览器使用各自的方言来支持。
+注：`postcss-load-config`支持很多种不同格式的配置
+
+然后还需要写一个js文件，以js代码的形式调用`postcss`和`postcss-load-config`这两个库，手动调用postcss相关方法，把options传进去。
+这个过程有够麻烦的。
+
+看来没有人这么做，应该都是结合一些其它的工具，比如webpack/gulp/grunt等使用那边的插件来处理吧。
 
 ```
 npm install
