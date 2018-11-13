@@ -12,6 +12,8 @@ JavaScript PostCSS Config Demo
 
 看来没有人这么做，应该都是结合一些其它的工具，比如webpack/gulp/grunt等使用那边的插件来处理吧。
 
+注：如何是在webpack中，可以直接使用`postcss-loader`来读取`postcss.config.js`
+
 ```
 npm install
 npm run demo
