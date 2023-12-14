@@ -1,11 +1,11 @@
 {
-  "scripts": {
-    "demo": "node postcss-with-config.js"
-  },
-  "devDependencies": {
-    "autoprefixer": "9.1.5",
-    "postcss-cli": "6.0.0",
-    "postcss-load-config": "2.0.0",
-    "precss": "3.1.2"
-  }
+    "scripts": {
+        "start": "node postcss-with-config.js"
+    },
+    "devDependencies": {
+        "autoprefixer": "9.1.5",
+        "postcss-cli": "6.0.0",
+        "postcss-load-config": "2.0.0",
+        "precss": "3.1.2"
+    }
 }
